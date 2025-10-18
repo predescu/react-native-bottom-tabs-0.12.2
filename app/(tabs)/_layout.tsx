@@ -33,6 +33,14 @@ export default function TabLayout() {
           tabBarIcon: () => ({ sfSymbol: 'paperplane.fill' }),
         }}
       />
+      <Tabs.Screen
+        name="search"
+        options={{
+          title: 'Search',
+          tabBarIcon: () => ({ sfSymbol: 'magnifyingglass' }),
+          role: 'search',
+        }}
+      />
     </Tabs>
   );
 }
